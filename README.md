@@ -1,2 +1,25 @@
 # b4-reserch
 B4で行った研究（公開できる範囲）
+
+
+ファイル名：BandGap1_10000.csv
+一次元フォノニック結晶のバンドギャップをforループで計算して収集したデータ
+C2とsを100通りずつ変化させた時の、一番下のバンドギャップデータを収集
+
+ファイル名：All_BandGap_10000.csv
+一次元フォノニック結晶のバンドギャップをforループで計算して収集したデータ
+C2とsを100通りずつ変化させた時の、下から7つのバンドギャップデータを収集
+
+ファイル名：Sequential.ipynb
+KerasのSequentialモデルをGoogle colaboratoryで実行するプログラム
+出力が一つの単純なニューラルネットワークモデル
+
+ファイル名：Functional_API.ipynb
+KerasのSequentialモデルをGoogle colaboratoryで実行するプログラム
+出力が複数のニューラルネットワークモデル
+
+ファイル名：regression surface.ipynb
+物質・構造パラメータとバンドギャップの関係を機械に学習後、回帰曲面を生成するプログラム
+
+ファイル名：gaussian.ipynb
+回帰曲面の数式から、C2とsのパラメータを予測するプログラム
